@@ -51,14 +51,14 @@ export const Badge = (props: Props) => {
           {props.footer?.text ?? 'Powered by'}
           <a
             ref={liteBadge}
-            href={props.footer?.companyLink ?? 'https://flowiseai.com'}
+            href={props.footer?.companyLink ?? 'https://drive.google.com/file/d/1AK3ISf_A-w52oh1dK2CvR8RxXjrS2D0K/view?usp=sharing'}
             target="_blank"
             rel="noopener noreferrer"
             class="lite-badge"
             id="lite-badge"
             style={{ 'font-weight': 'bold', color: props.footer?.textColor ?? props.poweredByTextColor ?? defaultTextColor }}
           >
-            <span>&nbsp;{props.footer?.company ?? 'Flowise'}</span>
+            <span>&nbsp;{props.footer?.company ?? 'DigiHex AI'}</span>
           </a>
         </span>
       </Show>
